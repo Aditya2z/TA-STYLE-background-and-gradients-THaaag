@@ -1,0 +1,138 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* custom styling starts here */
+/* custom styling starts here */
+
+/* general styling start*/
+/* general styling start*/
+body{
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url(../media/bg-big.jpg);
+    background-size: 100% 52%;
+}
+.flex{
+    display: flex;
+}
+.column{
+    flex-direction: column;
+}
+h1{
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    padding: 30px 0;
+}
+h2{
+    font-size: 24px;
+    font-weight: bold;
+}
+.center{
+    justify-content: center;
+    align-items: center;
+}
+/* general styling end*/
+/* general styling end*/
+
+/* header style start*/
+/* header style start*/
+.header{
+    text-align: center;
+}
+/* header style end*/
+/* header style end*/
+
+/* main style start*/
+/* main style start*/
+.box{
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+.sec-1{
+    justify-content: space-between;
+    padding: 50px 30px;
+}
+.box-1{
+    background: linear-gradient(#FF0248, #FF0248);
+}
+.box-2{
+    background: linear-gradient(to left, #FF0248, black);
+}
+.box-3{
+    background: radial-gradient(#FF0248, black);
+}
+.sec-2{
+    width: 80%;
+    margin: 0 auto;
+}
+.box-4{
+    height: 400px;
+    width: 100%;
+    background: linear-gradient(-45deg, rgba(255,2,72,.5), rgba(0,0,0,.5)), url(../media/yana-marudova-QVF-Pcvg3xo-unsplash.jpg);
+    background-size: 100% auto;
+    background-position: 50% 50%;
+    border-radius: 20px;
+}
+/* main style end*/
+/* main style end*/
+
+/* footer style start*/
+/* footer style start*/
+footer strong{
+    font-size: 50px;
+    color: gray;
+    margin-left: 100px;
+}
+footer span{
+    font-size: 30px;
+    color: gray;
+}
+/* footer style end*/
+/* footer style end*/
