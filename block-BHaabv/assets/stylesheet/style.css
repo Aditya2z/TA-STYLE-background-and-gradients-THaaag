@@ -1,0 +1,272 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* custom styling starts here */
+/* custom styling starts here */
+
+/* color-box
+whiteblue:#727899
+skyblue:#1BA2F3
+blue:#252B43
+pink:#E35293
+yellow:#FBBD66
+dark-red:#C2042A
+light-red:#B94958
+green:#239c90
+ */
+
+/* general styling */
+/* general styling */
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: rgba(29,32,41,1);
+}
+*{
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+}
+.column{
+    flex-direction: column;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+h1{
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    margin: 10px 0;
+}
+h2{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+h3{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin: 10px 0;
+}
+h4{
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    margin: 10px 0; 
+}
+p{
+    color: #727899;
+}
+.center{
+    justify-content: center;
+    align-items: center;
+}
+.bluewhite{
+    color: #727899;
+}
+.fa-square-facebook,.fa-twitter{
+    color: #1BA2F3;
+    font-size: 20px;
+}
+.fa-instagram{
+    background: linear-gradient(45deg,#FBBD66, #E35293);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+}
+.fa-youtube{
+    height: 20px;
+    width: 20px;
+    font-size: 10px;
+    border-radius: 50%;
+    background-color: #C2042A;
+    padding-top: 4px;
+}
+.up{
+    color: #239c90;
+    justify-content: center;
+    align-items: center;
+}
+.down{
+    color: #B94958;
+    justify-content: center;
+    align-items: center;
+}
+.fa-caret-down,.fa-caret-up{
+    font-size: 12px;
+}
+.smallest{
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+/* styling header start*/
+/* styling header start*/
+header{
+    background-color: #20222F;
+    border-radius: 20px;
+}
+.header{
+    text-transform: capitalize;
+    padding: 30px 0px;
+    justify-content: space-between;
+    align-items: baseline;
+    height: 250px;
+}
+.header p{
+    color: #727899;
+    font-size: 13px;
+    font-weight: bold;
+}
+.mode{
+    justify-content: space-between;
+    align-items: center;
+}
+.mode p{
+    margin-right: 10px;
+}
+.switch{
+    height: 22px;
+    width: 40px;
+    background: linear-gradient(to right,#1BA2F3,aqua );
+    border-radius: 12px;
+    align-items: center;
+}
+.circle{
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background-color: #20222F;
+    margin: 2px;
+}
+
+/* styling header end*/
+/* styling header end*/
+
+/* styling main start*/
+/* styling main start*/
+main{
+    position: relative;
+    top: -100px;
+}
+
+    /* styling followers and subscribers row start*/
+    /* styling followers and subscribers row start*/
+.follower-row{
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.social{
+    width: 250px;
+    height: 195px;
+    padding: 20px 0px;
+    text-align: center;
+    justify-content: space-around;
+    background: #252B43;
+    border-radius: 5px;
+}
+.facebook,.twitter,.instagram,.youtube{
+    width: 250px;
+    height: 200px;
+    text-align: center;
+    align-items: flex-end;
+    border-radius: 10px;
+}
+.facebook,.twitter{
+    background: linear-gradient(to right, #1BA2F3,#1BA2F3) 0px 0px no-repeat;
+    background-size: 250px 5px;
+}
+.instagram{
+    background: linear-gradient(to right, #FBBD66,#E35293) 0px 0px no-repeat;
+    background-size: 250px 5px;
+}
+.youtube{
+    background: linear-gradient(to right, #C2042A,#C2042A) 0px 0px no-repeat;
+    background-size: 250px 5px;
+}
+.social p{
+    font-size: 14px;
+    letter-spacing: 2.5px;
+}
+    /* styling followers and subscribers row end*/
+    /* styling followers and subscribers row end*/
+
+    /* styling activity log row start*/
+    /* styling activity log row start*/
+.activity-log{
+    margin-top: 50px;
+}
+.activity-row{
+    height: 250px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    margin: 30px 0;
+}
+.activity{
+    width: 250px;
+    height: 110px;
+    background: #252B43;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+.activity p{
+    font-size: 13px;
+    font-weight: bold;
+}
+.activity .flex{
+    justify-content: space-between;
+    align-items: center;
+}
