@@ -1,0 +1,272 @@
+<!-- writeCode
+
+- Create a layout according to the design shown below.
+
+![Backgrounds and gradients level 2](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/background-and-gradients/ex-2.jpg)
+
+- Using CSS resets is necessary.
+
+- Use semantic tags and keep the nesting and indentation proper.
+
+- Work on typography in detail. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title of the page -->
+    <!-- title of the page -->
+    <title>bg-2</title>
+    <!-- linking stylesheet -->
+    <!-- linking stylesheet -->
+    <link rel="stylesheet" href="./assets/stylesheet/style.css">
+    <!-- linking font-awesome -->
+    <!-- linking font-awesome -->
+    <script src="https://kit.fontawesome.com/eec6d21a06.js" crossorigin="anonymous"></script>
+    <!-- linking font-family -->
+    <!-- linking font-family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- header of the page start -->
+    <!-- header of the page start -->
+    <header>
+        <div class="container header flex">
+            <section>
+                <h1>social media dashboard</h1>
+                <p>Total Followers: 23,004</p>
+            </section>
+            <section class="mode flex center">
+                <p>dark mode</p>
+                <div class="switch">
+                    <div class="circle"></div>
+                </div>
+            </section>
+        </div>
+    </header>
+    <!-- header of the page end -->
+    <!-- header of the page end -->
+
+    <!-- main content of the page start -->
+    <!-- main content of the page start -->
+    <main>
+        <div class="container">
+            <!-- row of big social-media follower count start -->
+            <!-- row of big social-media follower count start -->
+            <section class="flex follower-row">
+
+                <!-- facebook box-1 starts-->
+                <!-- facebook box-1 starts-->
+                <section class="facebook flex">
+                    <div class="social flex column">
+                        <div class="flex center">
+                            <i class="fa-brands fa-square-facebook"></i>
+                            <span class="smallest bluewhite">@nathanf</span>
+                        </div>
+                        <div>
+                            <h2>1987</h2>
+                            <p class="bluewhite">FOLLOWERS</p>
+                        </div>
+                        <div class="up flex">
+                            <i class="fa-solid fa-caret-up"></i>
+                            <span class="smallest">12 Today</span>
+                        </div>
+                    </div>
+                </section>
+                <!-- box-1 end-->
+                <!-- box-1 end-->
+
+                <!-- twitter box-2 starts-->
+                <!-- twitter box-2 starts-->
+                <section class="twitter flex">
+                    <div class="social flex column">
+                        <div class="flex center">
+                            <i class="fa-brands fa-twitter"></i>
+                            <span class="smallest bluewhite">@nathanf</span>
+                        </div>
+                        <div>
+                            <h2>1044</h2>
+                            <p class="bluewhite">FOLLOWERS</p>
+                        </div>
+                        <div class="up flex">
+                            <i class="fa-solid fa-caret-up"></i>
+                            <span class="smallest">99 Today</span>
+                        </div>
+                    </div>
+                </section>
+                <!-- box-2 end-->
+                <!-- box-2 end-->
+
+                <!--instagram box-3 starts-->
+                <!--instagram box-3 starts-->
+                <section class="instagram flex">
+                    <div class="social flex column">
+                        <div class="flex center">
+                            <i class="fa-brands fa-instagram"></i>
+                            <span class="smallest bluewhite">@realnathanf</span>
+                        </div>
+                        <div>
+                            <h2>11k</h2>
+                            <p class="bluewhite">FOLLOWERS</p>
+                        </div>
+                        <div class="up flex">
+                            <i class="fa-solid fa-caret-up"></i>
+                            <span class="smallest">1099 Today</span>
+                        </div>
+                    </div>
+                </section>
+                <!-- box-3 end-->
+                <!-- box-3 end-->
+
+                <!-- youtube box-4 starts-->
+                <!-- youtube box-4 starts-->
+                <section class="youtube flex">
+                    <div class="social flex column">
+                        <div class="flex center">
+                            <i class="fa-brands fa-youtube"></i>
+                            <span class="smallest bluewhite">@nathanf</span>
+                        </div>
+                        <div>
+                            <h2>8239</h2>
+                            <p class="bluewhite">SUBSCRIBERS</p>
+                        </div>
+                        <div class="down flex">
+                            <i class="fa-solid fa-caret-down"></i>
+                            <span class="smallest">144 Today</span>
+                        </div>
+                    </div>
+                </section>
+                <!-- box-4 end-->
+                <!-- box-4 end-->
+
+            </section>
+            <!-- row of big social-media follower count end -->
+            <!-- row of big social-media follower count end -->
+
+            <!-- row of social-media activity log start -->
+            <!-- row of social-media activity log start -->
+            <section class="activity-log">
+                <h3>Overview - Today</h3>
+                <section class="activity-row flex">
+                    <section class="activity flex column">
+                        <div class="flex">
+                            <p>Page Views</p>
+                            <i class="fa-brands fa-square-facebook"></i>
+                        </div>
+                        <div class="flex">
+                            <h4>87</h4>
+                            <div class="up flex">
+                                <i class="fa-solid fa-caret-up"></i>
+                                <span class="smallest">3%</span>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="activity flex column">
+                        <div class="flex">
+                            <p>Likes</p>
+                            <i class="fa-brands fa-square-facebook"></i>
+                        </div>
+                        <div class="flex">
+                            <h4>52</h4>
+                            <div class="down flex">
+                                <i class="fa-solid fa-caret-down"></i>
+                                <span class="smallest">2%</span>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="activity flex column">
+                        <div class="flex">
+                            <p>Likes</p>
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                        <div class="flex">
+                            <h4>5462</h4>
+                            <div class="up flex">
+                                <i class="fa-solid fa-caret-up"></i>
+                                <span class="smallest">2257%</span>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="activity flex column">
+                        <div class="flex">
+                            <p>Profile Views</p>
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                        <div class="flex">
+                            <h4>52k</h4>
+                            <div class="up flex">
+                                <i class="fa-solid fa-caret-up"></i>
+                                <span class="smallest">5553%</span>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="activity flex column">
+                        <div class="flex">
+                            <p>Retweets</p>
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                        <div class="flex">
+                            <h4>117</h4>
+                            <div class="up flex">
+                                <i class="fa-solid fa-caret-up"></i>
+                                <span class="smallest">5533%</span>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="activity flex column">
+                        <div class="flex">
+                            <p>Likes</p>
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                        <div class="flex">
+                            <h4>507</h4>
+                            <div class="up flex">
+                                <i class="fa-solid fa-caret-up"></i>
+                                <span class="smallest">303%</span>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="activity flex column">
+                        <div class="flex">
+                            <p>Likes</p>
+                            <i class="fa-brands fa-youtube"></i>
+                        </div>
+                        <div class="flex">
+                            <h4>107</h4>
+                            <div class="down flex">
+                                <i class="fa-solid fa-caret-down"></i>
+                                <span class="smallest">19%</span>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="activity flex column">
+                        <div class="flex">
+                            <p>Total Views</p>
+                            <i class="fa-brands fa-youtube"></i>
+                        </div>
+                        <div class="flex">
+                            <h4>1407</h4>
+                            <div class="down flex">
+                                <i class="fa-solid fa-caret-down"></i>
+                                <span class="smallest">12%</span>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+
+            </section>
+            <!-- row of social-media activity log end -->
+            <!-- row of social-media activity log end -->
+        </div>
+    </main>
+    <!-- main content of the page end -->
+    <!-- main content of the page end -->
+
+    <!-- footer of the page start -->
+    <!-- footer of the page start -->
+    <footer></footer>
+    <!-- footer of the page end -->
+    <!-- footer of the page end -->
+</body>
+</html>
